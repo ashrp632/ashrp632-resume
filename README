@@ -1,1 +1,2 @@
-This is a hosted S3 Static Site that hosts a HTML Document detailing my current resume. A cloudfront distribution should be added to make sure that 
+This is a hosted S3 Static Site that hosts an HTML Document detailing my current resume. A CloudFront distribution should be added to ensure it can be accessed through HTTPS.
+The current domain distribution https://d1nkbs2ftaf3g9.cloudfront.net accomplishes this. We then assign a record in Route 53 to ensure it goes to this distribution.
