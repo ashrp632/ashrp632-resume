@@ -1,0 +1,1 @@
+This is a hosted S3 Static Site that hosts a HTML Document detailing my current resume. A cloudfront distribution should be added to make sure that 
